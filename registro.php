@@ -63,7 +63,7 @@
 <body>
     <div class="container">
         <h2>Cadastro</h2>
-        <form action="base.php" method="POST">
+        <form action="login.php" method="POST">
             <label for="username">Usuário:</label>
             <input type="text" id="username" name="username" required>
 
@@ -82,9 +82,5 @@
 </body>
 </html>
 <?php
- $_verificar_senha = $_POST["confirm_password"];
- $_senha = $_POST ["password"];
- if($_verificar_senha == $_senha){
-    
- }
+ 
 ?>
