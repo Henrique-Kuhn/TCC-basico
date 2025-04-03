@@ -21,6 +21,7 @@
             width: 100%;
             max-width: 400px;
         }
+    }
         h2 {
             text-align: center;
             margin-bottom: 20px;
@@ -39,7 +40,7 @@
             border: 1px solid #555; 
             border-radius: 5px;
             background-color: #333; 
-            color: #2c2d2c; 
+            color: white; 
         }
         input::placeholder {
             color: #aaa; 
@@ -67,7 +68,7 @@
             <input type="text" id="username" name="username" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="(opcional)">
 
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
@@ -81,5 +82,9 @@
 </body>
 </html>
 <?php
-
+ $_verificar_senha = $_POST["confirm_password"];
+ $_senha = $_POST ["password"];
+ if($_verificar_senha == $_senha){
+    
+ }
 ?>

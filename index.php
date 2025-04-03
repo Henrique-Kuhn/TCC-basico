@@ -110,7 +110,7 @@
                 transform: translateX(120px); 
             }
 
-            }
+            
         </style>
         <nav>
             <div class="navbar">

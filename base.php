@@ -40,6 +40,7 @@
         .login-container input::placeholder {
             color: #bbbbbb;
             font-size: 16px;
+            
         }
         .login-container button {
             width: 100%;
@@ -65,7 +66,7 @@
     <div class="login-container">
         <h1>Login</h1>
         <form action="index.php" method="POST">
-            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="text" name="username" placeholder="Usuário ou Email" required>
             <input type="password" name="password" placeholder="Senha" required>
             <button type="submit" style="background-color: #28a745; color: white;">Entrar</button>
         </form>
