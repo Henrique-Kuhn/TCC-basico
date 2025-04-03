@@ -16,21 +16,22 @@
         }
         .login-container {
             background: #1e1e1e;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            width: 300px;
+            width: 400px;
+            font-size: 20px;
         }
         .login-container h1 {
             text-align: center;
             margin-bottom: 20px;
-            font-size: 24px;
+            font-size: 28px;
             color: #ffffff; 
         }
         .login-container input {
-            width: 93%;
-            padding: 10px;
-            margin: 10px 0 10px;
+            width: 95%; 
+            padding: 15px; 
+            margin: 15px 0 15px;
             border: none; 
             border-radius: 4px;
             background-color: #2c2c2c; 
@@ -38,19 +39,25 @@
         }
         .login-container input::placeholder {
             color: #bbbbbb;
+            font-size: 16px;
         }
         .login-container button {
             width: 100%;
-            padding: 10px;
+            padding: 15px; 
             background-color: #333333;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             transition: 0.5s;
+            font-size: 16px;
         }
         .login-container button:hover {
             background-color: #555555; 
+        }
+        .registro{
+            color: #28a745; 
+            text-decoration: none;
         }
     </style>
 </head>
@@ -63,7 +70,7 @@
             <button type="submit" style="background-color: #28a745; color: white;">Entrar</button>
         </form>
         <p style="text-align: center; margin-top: 10px; color: #ffffff;">
-            Não tem uma conta? <a href="register.php" style="color: #28a745;">Cadastre-se</a>
+            Não tem uma conta? <a href="registro.php" class="registro" >Cadastre-se</a>
         </p>
     </div>
 </body>
