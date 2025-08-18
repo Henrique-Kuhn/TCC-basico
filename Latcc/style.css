@@ -1,0 +1,70 @@
+ *{
+        background-color: black;
+    }
+    .linha1{
+        position: absolute;
+        width: 1900px;
+        top: 100px;
+        left: 10px;
+    }
+    .setas{
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        height: 50px;
+    }
+    .escolamaker{
+        color: white;
+        font-size: 42px;
+        position: absolute;
+        top: 35px;
+        left: 130px;
+    }
+    .btni{
+        border: 2px solid white;
+        color: white;
+        width: 200px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        right: 28px;
+        top: 45px;
+        border-radius: 4px;
+    }
+    .btni:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .introducao img{
+        position: absolute;
+        top: 230px;
+        left: 72%;
+        
+    }
+    .introducao h1{
+        color: white;
+        font-size: 60px;
+        width: 900px;
+        position: absolute;
+        top: 340px;
+        left: 10%;
+    }
+    .introducao h3{
+        color: white;
+        font-size: 30px;
+        width: 700px;
+        position: absolute;
+        top: 500px;
+        left: 10%;
+    }
+    .linha{
+        position: absolute;
+        width: 1900px;
+        top: 850px;
+        left: 10px;
+    }
