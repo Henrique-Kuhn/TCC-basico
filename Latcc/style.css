@@ -81,6 +81,7 @@
     .sobreproj h3{
         font-size: 25px;
         margin-top: -20px;
+        width: 1400px;
     }
     .checks{
         position: absolute;
@@ -89,13 +90,25 @@
         color: white;
         width: 900px;
     }
-    .checks img{
-        
-        margin: 20px;
+    .checks img{    
+       margin: 20px;
+       width: 1000px;
     }
-    .checks h3{
-        font-size: 30px;
-        margin-top: -20px;
+    .linha2{
+        position: absolute;
+        width: 1900px;
+        top: 1500px;
+        left: 10px;
     }
-    
-    
+    .conteudo{
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 1600px;
+        left: 10%;
+        width: 1400px;
+    }
+    .conteudo .um img{
+        width: 1500px;
+    } 
+     
